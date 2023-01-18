@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="497.0" prefWidth="819.0" style="-fx-background-image: url(com/example/peoplesearch/add.png);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.peoplesearch.AddMovie">
+   <children>
+      <Label layoutX="132.0" layoutY="129.0" prefHeight="18.0" prefWidth="110.0" text="Enter release year">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="132.0" layoutY="84.0" prefHeight="32.0" prefWidth="118.0" text="Enter Movie name">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="132.0" layoutY="170.0" prefHeight="18.0" prefWidth="110.0" text="Enter Genre1">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="132.0" layoutY="206.0" prefHeight="18.0" prefWidth="110.0" text="Enter Genre2">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="132.0" layoutY="254.0" prefHeight="18.0" prefWidth="110.0" text="Enter Genre3">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="132.0" layoutY="302.0" prefHeight="18.0" prefWidth="110.0" text="Enter RunTime">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="132.0" layoutY="338.0" prefHeight="18.0" prefWidth="110.0" text="Enter Budget">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="132.0" layoutY="376.0" prefHeight="18.0" prefWidth="110.0" text="Enter Revenue">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="255.0" layoutY="24.0" prefHeight="18.0" prefWidth="161.0" text="           ADD MOVIE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <TextField fx:id="NameText" layoutX="269.0" layoutY="87.0" />
+      <TextField fx:id="RelYearText" layoutX="269.0" layoutY="126.0" />
+      <TextField fx:id="Genre2Text" layoutX="269.0" layoutY="203.0" />
+      <TextField fx:id="Genre1Text" layoutX="269.0" layoutY="167.0" />
+      <TextField fx:id="Genre3Text" layoutX="269.0" layoutY="251.0" />
+      <TextField fx:id="RunTimeText" layoutX="269.0" layoutY="299.0" />
+      <TextField fx:id="BudgetText" layoutX="269.0" layoutY="335.0" />
+      <TextField fx:id="RevenueText" layoutX="269.0" layoutY="373.0" />
+      <Button layoutX="269.0" layoutY="431.0" mnemonicParsing="false" onAction="#onAddClick" prefHeight="26.0" prefWidth="133.0" text="Press Add">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Button layoutX="440.0" layoutY="86.0" mnemonicParsing="false" onAction="#onVerifyClick" text="Press Verify">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Button layoutX="607.0" layoutY="431.0" mnemonicParsing="false" onAction="#onBackClick" prefHeight="27.0" prefWidth="53.0" text="Back">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Label fx:id="AddLabel" layoutX="562.0" layoutY="90.0" prefHeight="18.0" prefWidth="142.0" textFill="#ff2b09">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

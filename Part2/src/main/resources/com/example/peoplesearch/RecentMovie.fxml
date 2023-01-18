@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="513.0" prefWidth="749.0" style="-fx-background-image: url(com/example/peoplesearch/maximum.png);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.peoplesearch.RecentMovie">
+   <children>
+      <TableView fx:id="table" layoutX="37.0" layoutY="70.0" prefHeight="358.0" prefWidth="675.0">
+        <columns>
+          <TableColumn fx:id="namecol" prefWidth="75.0" text="Name" />
+          <TableColumn fx:id="relCol" prefWidth="75.0" text="Release year" />
+            <TableColumn fx:id="G1Col" prefWidth="75.0" text="Genre1" />
+            <TableColumn fx:id="G2Col" prefWidth="75.0" text="Genre2" />
+            <TableColumn fx:id="G3Col" prefWidth="75.0" text="Genre3" />
+            <TableColumn fx:id="RunCol" prefWidth="75.0" text="Run Time" />
+            <TableColumn fx:id="ProductionCol" prefWidth="75.0" text="ProductionCompany" />
+            <TableColumn fx:id="BudgetCol" prefWidth="75.0" text="Budget" />
+            <TableColumn fx:id="RevenueCol" prefWidth="75.0" text="Revenue" />
+        </columns>
+      </TableView>
+      <Button layoutX="336.0" layoutY="26.0" mnemonicParsing="false" onAction="#onRefreshClick" text="Refresh" />
+      <Button layoutX="344.0" layoutY="448.0" mnemonicParsing="false" onAction="#onBackClick" text="Back">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
